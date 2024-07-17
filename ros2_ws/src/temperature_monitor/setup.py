@@ -23,6 +23,7 @@ setup(
             'temperature_meter_node = temperature_monitor.temperature_meter:main',
             'threshold_alerter_node = temperature_monitor.threshold_alerter:main',
             'alert_publisher_node = temperature_monitor.alert_publisher:main',
+            'temperature_logger_node = temperature_monitor.temperature_logger:main',
         ],
     },
 )
