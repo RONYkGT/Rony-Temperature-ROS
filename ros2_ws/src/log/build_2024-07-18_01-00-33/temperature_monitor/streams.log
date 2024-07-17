@@ -1,0 +1,45 @@
+[1.049s] Invoking command in '/home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/temperature_monitor': PYTHONPATH=/home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/temperature_monitor build --build-base /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build install --record /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/install.log --single-version-externally-managed install_data
+[1.474s] running egg_info
+[1.475s] creating ../build/temperature_monitor/temperature_monitor.egg-info
+[1.475s] writing ../build/temperature_monitor/temperature_monitor.egg-info/PKG-INFO
+[1.476s] writing dependency_links to ../build/temperature_monitor/temperature_monitor.egg-info/dependency_links.txt
+[1.476s] writing entry points to ../build/temperature_monitor/temperature_monitor.egg-info/entry_points.txt
+[1.476s] writing requirements to ../build/temperature_monitor/temperature_monitor.egg-info/requires.txt
+[1.476s] writing top-level names to ../build/temperature_monitor/temperature_monitor.egg-info/top_level.txt
+[1.477s] writing manifest file '../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'
+[1.479s] reading manifest file '../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'
+[1.481s] writing manifest file '../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'
+[1.481s] running build
+[1.481s] running build_py
+[1.481s] creating /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build
+[1.482s] creating /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib
+[1.482s] creating /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib/temperature_monitor
+[1.482s] copying temperature_monitor/threshold_alerter.py -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib/temperature_monitor
+[1.482s] copying temperature_monitor/__init__.py -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib/temperature_monitor
+[1.482s] copying temperature_monitor/alert_publisher.py -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib/temperature_monitor
+[1.482s] copying temperature_monitor/temperature_meter.py -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib/temperature_monitor
+[1.482s] running install
+[1.483s] running install_lib
+[1.484s] creating /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor
+[1.484s] copying /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib/temperature_monitor/threshold_alerter.py -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor
+[1.484s] copying /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib/temperature_monitor/__init__.py -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor
+[1.485s] copying /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib/temperature_monitor/alert_publisher.py -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor
+[1.485s] copying /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib/temperature_monitor/temperature_meter.py -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor
+[1.485s] byte-compiling /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor/threshold_alerter.py to threshold_alerter.cpython-310.pyc
+[1.486s] byte-compiling /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor/__init__.py to __init__.cpython-310.pyc
+[1.486s] byte-compiling /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor/alert_publisher.py to alert_publisher.cpython-310.pyc
+[1.487s] byte-compiling /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor/temperature_meter.py to temperature_meter.cpython-310.pyc
+[1.487s] running install_data
+[1.488s] creating /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/share/ament_index
+[1.488s] creating /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/share/ament_index/resource_index
+[1.488s] creating /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/share/ament_index/resource_index/packages
+[1.488s] copying resource/temperature_monitor -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/share/ament_index/resource_index/packages
+[1.488s] copying package.xml -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/share/temperature_monitor
+[1.488s] running install_egg_info
+[1.491s] Copying ../build/temperature_monitor/temperature_monitor.egg-info to /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor-0.0.0-py3.10.egg-info
+[1.492s] running install_scripts
+[1.531s] Installing alert_publisher_node script to /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/temperature_monitor
+[1.531s] Installing temperature_meter_node script to /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/temperature_monitor
+[1.532s] Installing threshold_alerter_node script to /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/temperature_monitor
+[1.532s] writing list of installed files to '/home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/install.log'
+[1.573s] Invoked command in '/home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/temperature_monitor' returned '0': PYTHONPATH=/home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/temperature_monitor build --build-base /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build install --record /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/install.log --single-version-externally-managed install_data

@@ -1,0 +1,43 @@
+running egg_info
+creating ../build/temperature_monitor/temperature_monitor.egg-info
+writing ../build/temperature_monitor/temperature_monitor.egg-info/PKG-INFO
+writing dependency_links to ../build/temperature_monitor/temperature_monitor.egg-info/dependency_links.txt
+writing entry points to ../build/temperature_monitor/temperature_monitor.egg-info/entry_points.txt
+writing requirements to ../build/temperature_monitor/temperature_monitor.egg-info/requires.txt
+writing top-level names to ../build/temperature_monitor/temperature_monitor.egg-info/top_level.txt
+writing manifest file '../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'
+reading manifest file '../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'
+writing manifest file '../build/temperature_monitor/temperature_monitor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build
+creating /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib
+creating /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib/temperature_monitor
+copying temperature_monitor/threshold_alerter.py -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib/temperature_monitor
+copying temperature_monitor/__init__.py -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib/temperature_monitor
+copying temperature_monitor/alert_publisher.py -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib/temperature_monitor
+copying temperature_monitor/temperature_meter.py -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib/temperature_monitor
+running install
+running install_lib
+creating /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor
+copying /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib/temperature_monitor/threshold_alerter.py -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor
+copying /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib/temperature_monitor/__init__.py -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor
+copying /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib/temperature_monitor/alert_publisher.py -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor
+copying /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/build/lib/temperature_monitor/temperature_meter.py -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor
+byte-compiling /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor/threshold_alerter.py to threshold_alerter.cpython-310.pyc
+byte-compiling /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor/alert_publisher.py to alert_publisher.cpython-310.pyc
+byte-compiling /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor/temperature_meter.py to temperature_meter.cpython-310.pyc
+running install_data
+creating /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/share/ament_index
+creating /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/share/ament_index/resource_index
+creating /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/share/ament_index/resource_index/packages
+copying resource/temperature_monitor -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/share/ament_index/resource_index/packages
+copying package.xml -> /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/share/temperature_monitor
+running install_egg_info
+Copying ../build/temperature_monitor/temperature_monitor.egg-info to /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/python3.10/site-packages/temperature_monitor-0.0.0-py3.10.egg-info
+running install_scripts
+Installing alert_publisher_node script to /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/temperature_monitor
+Installing temperature_meter_node script to /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/temperature_monitor
+Installing threshold_alerter_node script to /home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/install/temperature_monitor/lib/temperature_monitor
+writing list of installed files to '/home/rony/Documents/inmind/Session05/Rony-Temperature-ROS/ros2_ws/src/build/temperature_monitor/install.log'
